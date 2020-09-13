@@ -15,6 +15,8 @@
 		0BCA18DC250DBEBB00BDEE04 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0BCA18DA250DBEBB00BDEE04 /* LaunchScreen.storyboard */; };
 		0BCA18E7250DBEBB00BDEE04 /* alert_itemTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA18E6250DBEBB00BDEE04 /* alert_itemTests.swift */; };
 		0BCA18F2250DBEBB00BDEE04 /* alert_itemUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA18F1250DBEBB00BDEE04 /* alert_itemUITests.swift */; };
+		0BCA1900250DD5CD00BDEE04 /* AlertItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA18FF250DD5CD00BDEE04 /* AlertItem.swift */; };
+		0BCA1902250DD5EF00BDEE04 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BCA1901250DD5EF00BDEE04 /* ContentViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		0BCA18ED250DBEBB00BDEE04 /* alert-itemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "alert-itemUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0BCA18F1250DBEBB00BDEE04 /* alert_itemUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = alert_itemUITests.swift; sourceTree = "<group>"; };
 		0BCA18F3250DBEBB00BDEE04 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0BCA18FF250DD5CD00BDEE04 /* AlertItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertItem.swift; sourceTree = "<group>"; };
+		0BCA1901250DD5EF00BDEE04 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +106,12 @@
 				0BCA18CF250DBEB900BDEE04 /* AppDelegate.swift */,
 				0BCA18D1250DBEB900BDEE04 /* SceneDelegate.swift */,
 				0BCA18D3250DBEB900BDEE04 /* ContentView.swift */,
+				0BCA18FF250DD5CD00BDEE04 /* AlertItem.swift */,
 				0BCA18D5250DBEBB00BDEE04 /* Assets.xcassets */,
 				0BCA18DA250DBEBB00BDEE04 /* LaunchScreen.storyboard */,
 				0BCA18DD250DBEBB00BDEE04 /* Info.plist */,
 				0BCA18D7250DBEBB00BDEE04 /* Preview Content */,
+				0BCA1901250DD5EF00BDEE04 /* ContentViewModel.swift */,
 			);
 			path = "alert-item";
 			sourceTree = "<group>";
@@ -268,8 +274,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0BCA18D0250DBEB900BDEE04 /* AppDelegate.swift in Sources */,
+				0BCA1900250DD5CD00BDEE04 /* AlertItem.swift in Sources */,
 				0BCA18D2250DBEB900BDEE04 /* SceneDelegate.swift in Sources */,
 				0BCA18D4250DBEB900BDEE04 /* ContentView.swift in Sources */,
+				0BCA1902250DD5EF00BDEE04 /* ContentViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
